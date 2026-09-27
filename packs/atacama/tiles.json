@@ -1,0 +1,118 @@
+{
+ "format": "ght1",
+ "crs": "EPSG:32719",
+ "site": {
+  "name": "atacama",
+  "region": "Atacama desert, Chile",
+  "lat": -23.5,
+  "lon": -69.5,
+  "origin_e": 448949,
+  "origin_n": 7401040
+ },
+ "tile_m": 7680,
+ "spacing_m": 30,
+ "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+ "source": "copernicus-glo30: Copernicus DEM GLO-30",
+ "surface": "copernicus-glo30=DSM",
+ "generated_utc": "2026-09-27T18:08:16Z",
+ "rings": [
+  {
+   "spacing_m": 30,
+   "radius_m": 6000,
+   "tile_m": 7680
+  }
+ ],
+ "tiles": [
+  {
+   "key": "s30_437760_7395840",
+   "file": "tiles/s30_437760_7395840.ght",
+   "sha256": "b3c5ec595059ba159d50a44563184f1a03f8e93bc28258ff4076ea90ffd786ae",
+   "e0": 437760,
+   "n0": 7395840,
+   "bytes": 132130,
+   "min_m": 1470.35,
+   "max_m": 2004.39,
+   "nodata": 0,
+   "spacing_m": 30,
+   "tile_m": 7680
+  },
+  {
+   "key": "s30_437760_7403520",
+   "file": "tiles/s30_437760_7403520.ght",
+   "sha256": "bfbb76bef208dec85387257ee262aae9e73973bc9ea3c55ccc5536dc84c51189",
+   "e0": 437760,
+   "n0": 7403520,
+   "bytes": 132130,
+   "min_m": 1604.06,
+   "max_m": 2136.58,
+   "nodata": 0,
+   "spacing_m": 30,
+   "tile_m": 7680
+  },
+  {
+   "key": "s30_445440_7388160",
+   "file": "tiles/s30_445440_7388160.ght",
+   "sha256": "44216b7f3e4e2aa949eb3001664dcde4401386ba0b80ec24b987c40ec73682b0",
+   "e0": 445440,
+   "n0": 7388160,
+   "bytes": 132130,
+   "min_m": 1439.08,
+   "max_m": 2040.59,
+   "nodata": 0,
+   "spacing_m": 30,
+   "tile_m": 7680
+  },
+  {
+   "key": "s30_445440_7395840",
+   "file": "tiles/s30_445440_7395840.ght",
+   "sha256": "0ea45e2e233101dc9e75e46896300526724d4f38471ff89feae52ed43ff6ab93",
+   "e0": 445440,
+   "n0": 7395840,
+   "bytes": 132130,
+   "min_m": 1616.26,
+   "max_m": 2110.5,
+   "nodata": 0,
+   "spacing_m": 30,
+   "tile_m": 7680
+  },
+  {
+   "key": "s30_445440_7403520",
+   "file": "tiles/s30_445440_7403520.ght",
+   "sha256": "fcce8f624c827c0d2d2db76e1080e505c83939049b1ccd01a9d1e152544bc9f4",
+   "e0": 445440,
+   "n0": 7403520,
+   "bytes": 132130,
+   "min_m": 1491.41,
+   "max_m": 2103.41,
+   "nodata": 0,
+   "spacing_m": 30,
+   "tile_m": 7680
+  },
+  {
+   "key": "s30_453120_7395840",
+   "file": "tiles/s30_453120_7395840.ght",
+   "sha256": "0e4332626c3b5b0bb6aea8dfba45238245802d45c069d023e2fcd481dda0a85c",
+   "e0": 453120,
+   "n0": 7395840,
+   "bytes": 132130,
+   "min_m": 1620.77,
+   "max_m": 1921.88,
+   "nodata": 0,
+   "spacing_m": 30,
+   "tile_m": 7680
+  },
+  {
+   "key": "s30_453120_7403520",
+   "file": "tiles/s30_453120_7403520.ght",
+   "sha256": "a506bb2e076d4408ff141e8ab973ec67a1b04a180078d8e0b234de87bd8a0ef8",
+   "e0": 453120,
+   "n0": 7403520,
+   "bytes": 132130,
+   "min_m": 1537.5,
+   "max_m": 1927.53,
+   "nodata": 0,
+   "spacing_m": 30,
+   "tile_m": 7680
+  }
+ ]
+}

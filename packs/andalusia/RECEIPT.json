@@ -1,0 +1,173 @@
+{
+ "tool": "world-lidar tools/pack.mjs",
+ "tool_version": "1.0.0",
+ "generated_utc": "2026-09-27T18:08:17Z",
+ "place": {
+  "region": "Andalusia, Spain",
+  "lat": 37.4,
+  "lon": -5.6
+ },
+ "crs": "EPSG:25830 UTM zone 30N ETRS89 (as WGS84)",
+ "crs_note": "Placement error of the CRS conversion is up to about 1 m.",
+ "rings": [
+  {
+   "spacing_m": 5,
+   "radius_m": 1000,
+   "tile_m": 1280
+  },
+  {
+   "spacing_m": 25,
+   "radius_m": 4000,
+   "tile_m": 6400
+  }
+ ],
+ "chain": [
+  "es-ign-mdt",
+  "copernicus-glo30",
+  "copernicus-glo90"
+ ],
+ "sources_used": [
+  {
+   "id": "es-ign-mdt",
+   "name": "IGN/CNIG Modelo Digital del Terreno (PNOA LiDAR), MDT05 and MDT25",
+   "surface": "DTM",
+   "licence": "Creative Commons Attribution 4.0 (CC BY 4.0 scne.es)",
+   "licence_url": "https://www.scne.es/",
+   "attribution": "CC BY 4.0 scne.es",
+   "attribution_adapted": null,
+   "nodes": 660490
+  }
+ ],
+ "source_errors": [],
+ "requests": [
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_5&subset=x(268790,270090)&subset=y(4140790,4142090)&format=application/asc",
+   "status": 200,
+   "bytes": 474795,
+   "sha256": "ad326367900a53faa25228b24c4fb410f60ebe5eb209a4682c239feab28871ef",
+   "ms": 675
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_5&subset=x(268790,270090)&subset=y(4142070,4143370)&format=application/asc",
+   "status": 200,
+   "bytes": 474795,
+   "sha256": "d73689d8c6ab01eb163f6d3867344cde1e991442f6444dd1d8b777cec06466c7",
+   "ms": 747
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_5&subset=x(268790,270090)&subset=y(4143350,4144650)&format=application/asc",
+   "status": 200,
+   "bytes": 474795,
+   "sha256": "12dd0d4a169667b3380f242391925819b900d52177856a95efac0dedc4443e51",
+   "ms": 261
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_5&subset=x(270070,271370)&subset=y(4140790,4142090)&format=application/asc",
+   "status": 200,
+   "bytes": 474795,
+   "sha256": "91d17478da7fe56b94e29de10e26c0d57a257b46269076913ddfcc994b48ffa8",
+   "ms": 275
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_5&subset=x(270070,271370)&subset=y(4142070,4143370)&format=application/asc",
+   "status": 200,
+   "bytes": 474795,
+   "sha256": "2ebf3d7ca6e2d479b8cad9df96c6752e7afc24f0beb2138a44eab8281ff0ab3f",
+   "ms": 316
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_5&subset=x(270070,271370)&subset=y(4143350,4144650)&format=application/asc",
+   "status": 200,
+   "bytes": 474795,
+   "sha256": "764900f1831471470a403d6cd4fb6023edcea57b4c5ee6d4d24822ada1576402",
+   "ms": 236
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_25&subset=x(262350,268850)&subset=y(4134350,4140850)&format=application/asc",
+   "status": 200,
+   "bytes": 474814,
+   "sha256": "a948743850007005e0357c3d201b5b67ab5aae5536295ba9662e4ca609b0a04c",
+   "ms": 190
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_25&subset=x(262350,268850)&subset=y(4140750,4147250)&format=application/asc",
+   "status": 200,
+   "bytes": 483736,
+   "sha256": "e657df5735cece6db80d1a938d774b1aadd549bf016daed5900a7e6d4082b352",
+   "ms": 197
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_25&subset=x(268750,275250)&subset=y(4134350,4140850)&format=application/asc",
+   "status": 200,
+   "bytes": 475953,
+   "sha256": "7bc422b032ec85137d15331adb4849baf3ad74a4595555ca2d7584dd186e1b09",
+   "ms": 195
+  },
+  {
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&CoverageId=Elevacion25830_25&subset=x(268750,275250)&subset=y(4140750,4147250)&format=application/asc",
+   "status": 200,
+   "bytes": 482785,
+   "sha256": "ceb0c3759297fe58452d1d23c9113e970fe18d66a506e52c7701f45c2c0cfea6",
+   "ms": 191
+  }
+ ],
+ "files": [
+  {
+   "file": "tiles.json",
+   "sha256": "2600551e859bf07efb6a5dd8a6a8fe7fe82beed6079ae7792dd88fda766e00a8",
+   "bytes": 3794
+  },
+  {
+   "file": "tiles/s5_268800_4140800.ght",
+   "sha256": "124327280dbb0b2f8c49b53e35af5af54d551d9dbdba2c1881da9f2da0d5522e",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s5_268800_4142080.ght",
+   "sha256": "7b4a74e295c86b89099d0115d1e3eb2c43e755b32dd92f28a85bae231860cab5",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s5_268800_4143360.ght",
+   "sha256": "64513cc84dcc088226ddfaf0fbcbd24b5afdb76148d7b8139d325086fac53938",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s5_270080_4140800.ght",
+   "sha256": "8bc9fd9efc539d1bc90fcb3f9586b20573c99bdad2de64123a1691c5b90d518d",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s5_270080_4142080.ght",
+   "sha256": "9fa6c92a77f4fab32c5a15a1f73d808dcc08e64c6bcbebff619c3b2155cc7519",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s5_270080_4143360.ght",
+   "sha256": "fc33f9a52ac32b6eadbe436e74e0fdc23f86f068ccc9abc004a71ab991522914",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s25_262400_4134400.ght",
+   "sha256": "014198ff7486548a47f74e4f0d46986365045147344e077bda7ff44142aa5375",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s25_262400_4140800.ght",
+   "sha256": "95800e832fec1a915998012a6e72918757d3525201ec353dab4f6905ace5056e",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s25_268800_4134400.ght",
+   "sha256": "960407b2b55d430d3ba94e4a054f7acd71600b11c62eeb9328a384bd0cd71739",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s25_268800_4140800.ght",
+   "sha256": "e44d8794561419e7ff620d355e16053880021ff1dca614f679ce80a76790bc05",
+   "bytes": 132130
+  }
+ ],
+ "total_bytes": 1325094,
+ "registry_sha256": "a001e28dd52e50a092f371afe7edec7bde400c44ab4378f73615879b5c4e2bd0"
+}

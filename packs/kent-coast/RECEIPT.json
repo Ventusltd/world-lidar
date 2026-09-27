@@ -1,0 +1,431 @@
+{
+ "tool": "world-lidar tools/pack.mjs",
+ "tool_version": "1.0.0",
+ "generated_utc": "2026-09-27T18:08:29Z",
+ "place": {
+  "region": "Kent coast, England",
+  "lat": 51.14,
+  "lon": 1.37
+ },
+ "crs": "EPSG:27700 British National Grid (Helmert from WGS84, a few metres)",
+ "crs_note": "Placement error of the CRS conversion is up to about 5 m.",
+ "rings": [
+  {
+   "spacing_m": 1,
+   "radius_m": 300,
+   "tile_m": 256
+  },
+  {
+   "spacing_m": 4,
+   "radius_m": 1000,
+   "tile_m": 1024
+  },
+  {
+   "spacing_m": 16,
+   "radius_m": 4000,
+   "tile_m": 4096
+  }
+ ],
+ "chain": [
+  "uk-england-ea-dtm1m",
+  "copernicus-glo30",
+  "copernicus-glo90"
+ ],
+ "sources_used": [
+  {
+   "id": "uk-england-ea-dtm1m",
+   "name": "Environment Agency LIDAR Composite DTM 1 m",
+   "surface": "DTM",
+   "licence": "Open Government Licence v3.0",
+   "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+   "attribution": "© Environment Agency copyright and/or database right 2022. All rights reserved.",
+   "attribution_adapted": null,
+   "nodes": 1283859
+  },
+  {
+   "id": "copernicus-glo30",
+   "name": "Copernicus DEM GLO-30",
+   "surface": "DSM",
+   "licence": "Copernicus DEM licence (ESA, free licence for GLO-30 Public)",
+   "licence_url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+   "attribution": "© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+   "attribution_adapted": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+   "nodes": 301317
+  }
+ ],
+ "source_errors": [],
+ "requests": [
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635390,635650)&subset=N(142846,143106)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "df893a7a1dc6c8179d3442922d5082d86cf1808bb201366b49b8b61329c42c45",
+   "ms": 467
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635390,635650)&subset=N(143102,143362)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "fbfadc18b0a44ec773355443aafff92081037ccb8bb12055c21440375e23d93f",
+   "ms": 511
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635390,635650)&subset=N(143358,143618)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "bcffecbd08c57c139fe0a2c80e9c0bec7a177c2033e30bcd8fd3da6352a917b5",
+   "ms": 376
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635646,635906)&subset=N(142846,143106)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "2b32bbd6c5bfe87e423c401c83bbab1be517f463153e691a626f83bea03faf10",
+   "ms": 321
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635646,635906)&subset=N(143102,143362)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "5964b14fa5d3ca850c858c022283532f2e4e70623f8c89b8bc9dd91c71685cbe",
+   "ms": 1476
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635646,635906)&subset=N(143358,143618)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "fe84c26100ceeeece29d09dcf216feb860b6b325106a3b654a69d1c4f2aec0ba",
+   "ms": 420
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635902,636162)&subset=N(142846,143106)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "8b7520f1ba1dfd208a1e53a924e158b4ca5ac8f2a1deaa95d6491cda81de9aeb",
+   "ms": 483
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635902,636162)&subset=N(143102,143362)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "33c02bbf5147e7937decffd9573aeae26489806dc42972b2f70a196362e95050",
+   "ms": 237
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635902,636162)&subset=N(143358,143618)&format=image/tiff",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "0ab82015d0253798d322653ec87afe495793ccf3fd5a0106445d68945dfddade",
+   "ms": 420
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(633848,634888)&subset=N(142328,143368)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "04e5ac9f8678d31278caafcb74f2d50a6ee6b0771d566020cbfb1d70998d69a2",
+   "ms": 473
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(633848,634888)&subset=N(143352,144392)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "9be2b53c0f2fd389f93c3e9866ad4abf4671f3ea860176298207aae94e8a5ea2",
+   "ms": 447
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(634872,635912)&subset=N(141304,142344)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "74de443ac9f199c88dd43f4558e5786671ca73f6b8281ed5afa2d11f7d4a5b0d",
+   "ms": 449
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 65536
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(634872,635912)&subset=N(142328,143368)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "9bedf3b1118e3e9a7c57359ea8ffb25e1aa98adf645bc0e516d2ef06e48d7660",
+   "ms": 453
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(634872,635912)&subset=N(143352,144392)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "9c234af24ba07b40b368af906b88a0c764083e92c5d18df1169d841472ff3656",
+   "ms": 396
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635896,636936)&subset=N(141304,142344)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "f76372c64a2dc35c7c98a8556771d1bf8059f35c88dd27445e153ccb82afc2d4",
+   "ms": 262
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635896,636936)&subset=N(142328,143368)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "136f26b82cd52748857c62fcf530def5f016f0212e5947a4b355d70627c9c14c",
+   "ms": 402
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(635896,636936)&subset=N(143352,144392)&format=image/tiff&scalefactor=0.25",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "ef44df62dd26af0cb35242d3e41b235a512bf941a598dd8c87ed97f00fa00dc1",
+   "ms": 345
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(630752,634912)&subset=N(139232,143392)&format=image/tiff&scalefactor=0.0625",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "7d0ffa18dd72be2cc20bdb65f1ab7321158f6a8c927a9ff46bf61d8f1d97fb7b",
+   "ms": 478
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(630752,634912)&subset=N(143328,147488)&format=image/tiff&scalefactor=0.0625",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "208bea8a5f88256aa657ebb3e8928435a116d2fe2fc5485937b907d462ffd7dd",
+   "ms": 384
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(634848,639008)&subset=N(135136,139296)&format=image/tiff&scalefactor=0.0625",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "0d0dda13c129629f0e3d09d4a1a66ce4a9deb0cc860951cbc9e65116b203da1f",
+   "ms": 516
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(634848,639008)&subset=N(139232,143392)&format=image/tiff&scalefactor=0.0625",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "354b931e794c766114468a3013621c37219065e158dd9fe9f6b8495bb9e7a20c",
+   "ms": 752
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(634848,639008)&subset=N(143328,147488)&format=image/tiff&scalefactor=0.0625",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "890d37d40604db29138939e2f1a8462f5000d043fdc11cc002c54b125f9a0fe1",
+   "ms": 522
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 2369874
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(638944,643104)&subset=N(139232,143392)&format=image/tiff&scalefactor=0.0625",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "7a1055cb8f411bbd06d02dbcbeb26dd7701462dc13d13536697dcb2792eaec50",
+   "ms": 344
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 4086
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  },
+  {
+   "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&subset=E(638944,643104)&subset=N(143328,147488)&format=image/tiff&scalefactor=0.0625",
+   "status": 200,
+   "bytes": 1049027,
+   "sha256": "47c665ad77d3e3cf9a1fa1378c2cbf719a2535e62ab1592c08a3501c6bce0301",
+   "ms": 690
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 33820
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 4086
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 2369874
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N51_00_E001_00_DEM/Copernicus_DSM_COG_10_N51_00_E001_00_DEM.tif",
+   "range": true,
+   "bytes": 578615
+  }
+ ],
+ "files": [
+  {
+   "file": "tiles.json",
+   "sha256": "1b720ca7f071b587f4a81429d38a98e342e551fb0a9e53d4051083de54689134",
+   "bytes": 8523
+  },
+  {
+   "file": "tiles/s1_635392_142848.ght",
+   "sha256": "6b27122fbbe1f1e5e924c399eec8c0827f7bfeb277598c97c2abe6b57017e53d",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635392_143104.ght",
+   "sha256": "cde761c9acb9c2e103cb9efcd603f4d74094d38146a00b3cda3d8b2cf9c1c7bd",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635392_143360.ght",
+   "sha256": "a828d141d65cdf748bdfacbc0faa2dbf2f4c3e960c3e20c060cd9d8635a1fa33",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635648_142848.ght",
+   "sha256": "bc9c14b56969ec7494c1ac44fbfb728c542e7677c2d934b154fbaf86a5d97a14",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635648_143104.ght",
+   "sha256": "bc5eae073ad6d6c199bc99085769d2abcb45330c55323e2b6251082ca2f4a6f5",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635648_143360.ght",
+   "sha256": "1b0c414ce37ac4f98454c506fc5f2df13b53c60459d1f991ce8b9b08da1ecc38",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635904_142848.ght",
+   "sha256": "7b482760ee38323e9692481bbcf20bcbaace9471bb7581fd56ba1352d73a2d54",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635904_143104.ght",
+   "sha256": "e373721b6084b21cd045f88a8be43b5f04dd7eae9f2f0601482e2c2908abfdd6",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_635904_143360.ght",
+   "sha256": "148dbeab1e05f608eeca8364f056861f6a0525fa7ff8fbf2ff916b0b99f083b3",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_633856_142336.ght",
+   "sha256": "15e6c798fd42d0084800c888ee9343970b6c294cb3e588a0d9f22f7267139754",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_633856_143360.ght",
+   "sha256": "91bc3d457564d4321ebf4919ca70139ae41a56da2b9125d867bc29a378babde5",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_634880_141312.ght",
+   "sha256": "f82ad35362f53ff94a2f62b7fc13d1daee6cfcae2f54fd4040a13cd2b52612ba",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_634880_142336.ght",
+   "sha256": "e20d068079e8d3d941b81c49a312a775837ed9dbb4abb20e64480c3d64d1962b",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_634880_143360.ght",
+   "sha256": "20be80153ff305f3e716bf2f71de513438bafd2a8004141c3b48496d8ce494bf",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_635904_141312.ght",
+   "sha256": "592d5d27cf1e8f95ab2d39748408ca6886af2997cc871898fa69622247b930aa",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_635904_142336.ght",
+   "sha256": "9f632b93abfbc7cc92ae2fd57c0c160a7239400aa610458b93ac8bd50042837b",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_635904_143360.ght",
+   "sha256": "e5b17e3697916cbdf7ad5d7360b8943343d22fcd89fd5038c4062973c4fc253f",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_630784_139264.ght",
+   "sha256": "944e239a65e8f1e2d2d5f5f536761c92962e29b7f37b191507aaaaebfd8e77c1",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_630784_143360.ght",
+   "sha256": "bab1410313bf499280807bb0c7cef6a529f34b94fb0ec2475d39d5713d65d0f8",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_634880_135168.ght",
+   "sha256": "1acff53bb3b9c312b0a3b4b3793eda4c3a36f8585d774082aaa7793b2e34113e",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_634880_139264.ght",
+   "sha256": "b4b9586d6e6ca06fdf0eaf9a437a064f688aac8c256cb7c6cee58694fe7dcddd",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_634880_143360.ght",
+   "sha256": "d6a46b6fe15d96252ada06e29d947f98c16b9cbd176b445fda93b6a8c419cd9d",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_638976_139264.ght",
+   "sha256": "28317494f298800f99aaa18e12498d33a3d927a4adccfb44d1524014179b8d8c",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_638976_143360.ght",
+   "sha256": "d9acbdddacf098675effca59c5884d9012481cea9fd12b647cc7f53305af217f",
+   "bytes": 132130
+  }
+ ],
+ "total_bytes": 3179643,
+ "registry_sha256": "a001e28dd52e50a092f371afe7edec7bde400c44ab4378f73615879b5c4e2bd0"
+}

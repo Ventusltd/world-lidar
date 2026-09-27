@@ -1,0 +1,137 @@
+{
+ "tool": "world-lidar tools/pack.mjs",
+ "tool_version": "1.0.0",
+ "generated_utc": "2026-09-27T18:08:16Z",
+ "place": {
+  "region": "Atacama desert, Chile",
+  "lat": -23.5,
+  "lon": -69.5
+ },
+ "crs": "EPSG:32719 UTM zone 19S WGS 84",
+ "crs_note": null,
+ "rings": [
+  {
+   "spacing_m": 30,
+   "radius_m": 6000,
+   "tile_m": 7680
+  }
+ ],
+ "chain": [
+  "copernicus-glo30",
+  "copernicus-glo90"
+ ],
+ "sources_used": [
+  {
+   "id": "copernicus-glo30",
+   "name": "Copernicus DEM GLO-30",
+   "surface": "DSM",
+   "licence": "Copernicus DEM licence (ESA, free licence for GLO-30 Public)",
+   "licence_url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+   "attribution": "© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+   "attribution_adapted": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+   "nodes": 462343
+  }
+ ],
+ "source_errors": [],
+ "requests": [
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 65536
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2345836
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2345836
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2345836
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2349965
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2345836
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2345836
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2227449
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2345836
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2345836
+  },
+  {
+   "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S24_00_W070_00_DEM/Copernicus_DSM_COG_10_S24_00_W070_00_DEM.tif",
+   "range": true,
+   "bytes": 2227449
+  }
+ ],
+ "files": [
+  {
+   "file": "tiles.json",
+   "sha256": "f46ff29331a541d9fbc324eabeb7510c9583cb4b6817991eff2b3ee09db28ce6",
+   "bytes": 2871
+  },
+  {
+   "file": "tiles/s30_437760_7395840.ght",
+   "sha256": "b3c5ec595059ba159d50a44563184f1a03f8e93bc28258ff4076ea90ffd786ae",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s30_437760_7403520.ght",
+   "sha256": "bfbb76bef208dec85387257ee262aae9e73973bc9ea3c55ccc5536dc84c51189",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s30_445440_7388160.ght",
+   "sha256": "44216b7f3e4e2aa949eb3001664dcde4401386ba0b80ec24b987c40ec73682b0",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s30_445440_7395840.ght",
+   "sha256": "0ea45e2e233101dc9e75e46896300526724d4f38471ff89feae52ed43ff6ab93",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s30_445440_7403520.ght",
+   "sha256": "fcce8f624c827c0d2d2db76e1080e505c83939049b1ccd01a9d1e152544bc9f4",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s30_453120_7395840.ght",
+   "sha256": "0e4332626c3b5b0bb6aea8dfba45238245802d45c069d023e2fcd481dda0a85c",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s30_453120_7403520.ght",
+   "sha256": "a506bb2e076d4408ff141e8ab973ec67a1b04a180078d8e0b234de87bd8a0ef8",
+   "bytes": 132130
+  }
+ ],
+ "total_bytes": 927781,
+ "registry_sha256": "a001e28dd52e50a092f371afe7edec7bde400c44ab4378f73615879b5c4e2bd0"
+}

@@ -1,0 +1,370 @@
+{
+ "tool": "world-lidar tools/pack.mjs",
+ "tool_version": "1.0.0",
+ "generated_utc": "2026-09-27T18:08:16Z",
+ "place": {
+  "region": "Arizona desert, United States",
+  "lat": 33.3,
+  "lon": -113.2
+ },
+ "crs": "EPSG:32612 UTM zone 12N WGS 84",
+ "crs_note": null,
+ "rings": [
+  {
+   "spacing_m": 1,
+   "radius_m": 300,
+   "tile_m": 256
+  },
+  {
+   "spacing_m": 4,
+   "radius_m": 1000,
+   "tile_m": 1024
+  },
+  {
+   "spacing_m": 16,
+   "radius_m": 4000,
+   "tile_m": 4096
+  }
+ ],
+ "chain": [
+  "us-usgs-3dep",
+  "copernicus-glo30",
+  "copernicus-glo90"
+ ],
+ "sources_used": [
+  {
+   "id": "us-usgs-3dep",
+   "name": "USGS 3D Elevation Program (3DEP): 1 m projects, 1/3 arc-second seamless, dynamic ImageServer",
+   "surface": "DTM",
+   "licence": "Public domain (US Government work)",
+   "licence_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+   "attribution": "USGS National Map 3D Elevation Program (3DEP).",
+   "attribution_adapted": null,
+   "nodes": 1717274
+  }
+ ],
+ "source_errors": [],
+ "requests": [
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294654,3686398,294914,3686658&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "cb4b1f084060561abdb4c2fcae81ffde3a499656c151dd4b1893243f0cbdfb45",
+   "ms": 154
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294654,3686654,294914,3686914&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "ec91fa8ebb1cb1d21e8f7110ccba9c24c243d9406d2aeead450a6e1ab05afb23",
+   "ms": 143
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294910,3686398,295170,3686658&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "65476948e4f686422e1605317848803919e9b494ee31f44eccd36c1bf5252e56",
+   "ms": 65
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294910,3686654,295170,3686914&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "bcfed276f122c2cb1cbc8ec4bcf8d39af1e0a558b32317a7ac5307d695a1efb4",
+   "ms": 52
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294910,3686910,295170,3687170&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "663f55f3af5ca556559ae893cf958f03f6966c0fe775bbdf6797585c136faf00",
+   "ms": 35
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=295166,3686398,295426,3686658&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "0ecc9748cf09eb3e20fb03fb6f6a2957bea97d0065045ee628eb526ae0f9f3f2",
+   "ms": 33
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=295166,3686654,295426,3686914&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "2bd8a9abc15be18ac15765e25180aea8de673525415b69702200c4bffc78d751",
+   "ms": 40
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=295166,3686910,295426,3687170&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "a5114bcce8b6886a7248bf73d27ebc5ffb6eadfeae94cde779694c45f4980202",
+   "ms": 45
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=295422,3686398,295682,3686658&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "592f3443445fc3eb2b5c448ca57774319bebd85f6ee67aa6650ce113742129fc",
+   "ms": 43
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=295422,3686654,295682,3686914&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "8eb524a001c43d58dba30e84986582b669e8c672c5a3a4f9fec44369d903cde3",
+   "ms": 39
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=293880,3685368,294920,3686408&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "d642698334c45fddaed9049d1e534acad8596e411155119e9e886b20b18463a6",
+   "ms": 33
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=293880,3686392,294920,3687432&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "0e7ba56f08c0f30d0153f5de033cad773a4f0f0caa8a9427879262e13a91c734",
+   "ms": 35
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=293880,3687416,294920,3688456&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "1dd7fd38c43f02a695e6a392831cf953933e630bfedec6d407502aaab84dd78e",
+   "ms": 51
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294904,3685368,295944,3686408&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "087a719f9889db12f3d984b924c66e065acccf52462620839452073dd21cce0a",
+   "ms": 30
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294904,3686392,295944,3687432&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "4be75892cc84a463ca170cfd004eb8d92cb8c0d1bd91e6e5c431d16dbb46ea0d",
+   "ms": 40
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294904,3687416,295944,3688456&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "2ddcbb35e9ff0606a4193bf5cc49bf66a6620582a22508f4d78397fe3960659a",
+   "ms": 35
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=295928,3685368,296968,3686408&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "c793d8cb4b7123bdea1b895e4d2e8491cdb26544f6c43656490714f5fdbfb34e",
+   "ms": 50
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=295928,3686392,296968,3687432&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "870cbe3bcac77eb2a19de1adcbc38012bcb5d2ee0e1028c7a44829d1d0ec6472",
+   "ms": 30
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=290784,3682272,294944,3686432&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "f85c64e1e5e4b74d873dd4b89725f92101ee815373f72cb87cb6c23208406fcc",
+   "ms": 31
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=290784,3686368,294944,3690528&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "e5efbee2c1029163e344d8e6fe6d74c9da434bd3c4dbb67586e356548aba40ce",
+   "ms": 21
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=290784,3690464,294944,3694624&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "bb29cf1efe157c5007a7adbf9ab7b9bbb8f23cb28f62feff3afd1ca5a1fcdca3",
+   "ms": 37
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294880,3682272,299040,3686432&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "3aa84ed79c11ceb8a42a94560f8d0fd610c422cc4c4a3137f22db0f0dc39a5e4",
+   "ms": 42
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294880,3686368,299040,3690528&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "8735ab3f186c0eba6abfbb0fb4579a321a5e8bb720c2a9edff548be4a4308252",
+   "ms": 35
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=294880,3690464,299040,3694624&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "521d95ca05b828b4b02f7fd6e3cc985eecf171b2f12a2d06f551a7e5c1d45291",
+   "ms": 39
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=298976,3682272,303136,3686432&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "d29d4d67ff4e79b87234c6f03d886f1d06de1a0c319c05e414413e78d8a8ea86",
+   "ms": 32
+  },
+  {
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=298976,3686368,303136,3690528&bboxSR=32612&imageSR=32612&size=260,260&format=tiff&pixelType=F32&noDataInterpretation=esriNoDataMatchAny&interpolation=RSP_BilinearInterpolation&f=image",
+   "status": 200,
+   "bytes": 591017,
+   "sha256": "9e86d20932303db2ff0fc46ebcda20fdd16363205a74b69b94d5c35b54e80910",
+   "ms": 48
+  }
+ ],
+ "files": [
+  {
+   "file": "tiles.json",
+   "sha256": "9089036517fb4c6eb323303ac56321c4f258d9c594e4140f4ddc4b2e7813a3c0",
+   "bytes": 9050
+  },
+  {
+   "file": "tiles/s1_294656_3686400.ght",
+   "sha256": "16efb33f278365f4b81d577a9372bdd8dcd1b064c9d3839f1b085ed97496daa0",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_294656_3686656.ght",
+   "sha256": "e471784a0e9d1a37ec56b3e5722d5164fcf523edc99693195404d45f744ef896",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_294912_3686400.ght",
+   "sha256": "195188f49e4107a4a2ac3a4e5f6531a90b64c90fc5cc5064823ce63cc57d4452",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_294912_3686656.ght",
+   "sha256": "f1a17cfb44ca0665a01e02e08aadbdf81968cf5922c887ac9056ecea08ca6651",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_294912_3686912.ght",
+   "sha256": "2388776c2b2b2d4389bc4d713fdef6b56e78d205b06a45afaa23470d4f5df14b",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_295168_3686400.ght",
+   "sha256": "8cb15548d624fb36281193af471562984e2e9de18a9ac7af2f9cab70b35d0fb6",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_295168_3686656.ght",
+   "sha256": "12b7ccfbb01b20ef9df86fd3a545a8ff12cd669ff00cb548bde560dde2f3676b",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_295168_3686912.ght",
+   "sha256": "7803faf0533995f7ce81799077a723507a72bd234e91b0ddfd4e6dbbf52a728a",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_295424_3686400.ght",
+   "sha256": "760a968da86886d18244c5533e46ceaadcf0f4d37e578e6d781507653ab83416",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s1_295424_3686656.ght",
+   "sha256": "8f5404d340ea9fb539356bf07a1a00889275c50275cf7e7d33f85e86b18aa079",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_293888_3685376.ght",
+   "sha256": "9dd24303a25e72f1dc9a4bf15e0325423b8956f2213734593cd5815dc0bfc637",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_293888_3686400.ght",
+   "sha256": "58c1edfa84e6e716393c5d64fa77e457e0068b0df64ae75944b2d1cfea245efc",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_293888_3687424.ght",
+   "sha256": "789f185c5611603e949b62e3182e12f8bc56b73e26a7a518c4952989f0b2bfa8",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_294912_3685376.ght",
+   "sha256": "6ca93bf3d8b55f6f1bc0aa201da3f6e1096a56600845cfcb3fae74c965a2d95a",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_294912_3686400.ght",
+   "sha256": "1b7fa745b24fa15c612e8356ab486f6bcdf15a1d9f56d1a748c60cdd7ddf8eab",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_294912_3687424.ght",
+   "sha256": "44643341325fd83a329b44bccbc5e6052ef293f243f1ee3263035280df93da5a",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_295936_3685376.ght",
+   "sha256": "f8b05745f8dc899155eb15b704eb30ecf8046559f659b9ce285888e8ee0acae4",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s4_295936_3686400.ght",
+   "sha256": "a86683da0a2f4183c10664a3fd6a07ddf81efc4518b9eee34b9ac427d89cb24b",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_290816_3682304.ght",
+   "sha256": "ce4a32e369f5a34d9741e9ca26fb14b2f17dc9718d920d1e35a4470963cd035d",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_290816_3686400.ght",
+   "sha256": "87e39ef083a7553bc59d9c0960d9c015f07b1d7f0815bb7d7e9180f48307de2e",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_290816_3690496.ght",
+   "sha256": "c8c7c73ae62a4f9751a42da1c464bdf094f76d9eee206c095e9b2762a69ef949",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_294912_3682304.ght",
+   "sha256": "a4f851ede0a9d94c2f226ad18aadd7e0cd845b94b2d2615724335242bd0bf188",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_294912_3686400.ght",
+   "sha256": "aff09c30848c790e1dce5ffbcdee1eb0b8b6dc44f32591ed9116561ad9eded45",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_294912_3690496.ght",
+   "sha256": "5a4d1021c0e62492d7fe0a44186e929b21270e5654ee600527b8dce3b66257f6",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_299008_3682304.ght",
+   "sha256": "6997235e7b1592cd9d7b302c33d6e6615846bc2b8e10149a628558212ab63a50",
+   "bytes": 132130
+  },
+  {
+   "file": "tiles/s16_299008_3686400.ght",
+   "sha256": "d8058db9931a50e2f82b45af419554f7a3c46dfe0b8b1817647c23f5a05191e0",
+   "bytes": 132130
+  }
+ ],
+ "total_bytes": 3444430,
+ "registry_sha256": "a001e28dd52e50a092f371afe7edec7bde400c44ab4378f73615879b5c4e2bd0"
+}

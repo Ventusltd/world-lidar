@@ -1,0 +1,166 @@
+{
+ "format": "ght1",
+ "crs": "EPSG:25830",
+ "site": {
+  "name": "andalusia",
+  "region": "Andalusia, Spain",
+  "lat": 37.4,
+  "lon": -5.6,
+  "origin_e": 269859,
+  "origin_n": 4142420
+ },
+ "tile_m": 1280,
+ "spacing_m": 5,
+ "attribution": "MDT derived from PNOA LiDAR, © Instituto Geográfico Nacional, CC BY 4.0 scne.es",
+ "source": "es-ign-mdt: IGN/CNIG Modelo Digital del Terreno (PNOA LiDAR), MDT05 and MDT25",
+ "surface": "es-ign-mdt=DTM",
+ "generated_utc": "2026-09-27T18:08:17Z",
+ "rings": [
+  {
+   "spacing_m": 5,
+   "radius_m": 1000,
+   "tile_m": 1280
+  },
+  {
+   "spacing_m": 25,
+   "radius_m": 4000,
+   "tile_m": 6400
+  }
+ ],
+ "tiles": [
+  {
+   "key": "s5_268800_4140800",
+   "file": "tiles/s5_268800_4140800.ght",
+   "sha256": "124327280dbb0b2f8c49b53e35af5af54d551d9dbdba2c1881da9f2da0d5522e",
+   "e0": 268800,
+   "n0": 4140800,
+   "bytes": 132130,
+   "min_m": 63.31,
+   "max_m": 75,
+   "nodata": 0,
+   "spacing_m": 5,
+   "tile_m": 1280
+  },
+  {
+   "key": "s5_268800_4142080",
+   "file": "tiles/s5_268800_4142080.ght",
+   "sha256": "7b4a74e295c86b89099d0115d1e3eb2c43e755b32dd92f28a85bae231860cab5",
+   "e0": 268800,
+   "n0": 4142080,
+   "bytes": 132130,
+   "min_m": 64.6,
+   "max_m": 76.98,
+   "nodata": 0,
+   "spacing_m": 5,
+   "tile_m": 1280
+  },
+  {
+   "key": "s5_268800_4143360",
+   "file": "tiles/s5_268800_4143360.ght",
+   "sha256": "64513cc84dcc088226ddfaf0fbcbd24b5afdb76148d7b8139d325086fac53938",
+   "e0": 268800,
+   "n0": 4143360,
+   "bytes": 132130,
+   "min_m": 67,
+   "max_m": 76,
+   "nodata": 0,
+   "spacing_m": 5,
+   "tile_m": 1280
+  },
+  {
+   "key": "s5_270080_4140800",
+   "file": "tiles/s5_270080_4140800.ght",
+   "sha256": "8bc9fd9efc539d1bc90fcb3f9586b20573c99bdad2de64123a1691c5b90d518d",
+   "e0": 270080,
+   "n0": 4140800,
+   "bytes": 132130,
+   "min_m": 66.36,
+   "max_m": 80.44,
+   "nodata": 0,
+   "spacing_m": 5,
+   "tile_m": 1280
+  },
+  {
+   "key": "s5_270080_4142080",
+   "file": "tiles/s5_270080_4142080.ght",
+   "sha256": "9fa6c92a77f4fab32c5a15a1f73d808dcc08e64c6bcbebff619c3b2155cc7519",
+   "e0": 270080,
+   "n0": 4142080,
+   "bytes": 132130,
+   "min_m": 69.01,
+   "max_m": 85,
+   "nodata": 0,
+   "spacing_m": 5,
+   "tile_m": 1280
+  },
+  {
+   "key": "s5_270080_4143360",
+   "file": "tiles/s5_270080_4143360.ght",
+   "sha256": "fc33f9a52ac32b6eadbe436e74e0fdc23f86f068ccc9abc004a71ab991522914",
+   "e0": 270080,
+   "n0": 4143360,
+   "bytes": 132130,
+   "min_m": 65.54,
+   "max_m": 78,
+   "nodata": 0,
+   "spacing_m": 5,
+   "tile_m": 1280
+  },
+  {
+   "key": "s25_262400_4134400",
+   "file": "tiles/s25_262400_4134400.ght",
+   "sha256": "014198ff7486548a47f74e4f0d46986365045147344e077bda7ff44142aa5375",
+   "e0": 262400,
+   "n0": 4134400,
+   "bytes": 132130,
+   "min_m": 45.25,
+   "max_m": 102.25,
+   "nodata": 0,
+   "spacing_m": 25,
+   "tile_m": 6400,
+   "ring": 25
+  },
+  {
+   "key": "s25_262400_4140800",
+   "file": "tiles/s25_262400_4140800.ght",
+   "sha256": "95800e832fec1a915998012a6e72918757d3525201ec353dab4f6905ace5056e",
+   "e0": 262400,
+   "n0": 4140800,
+   "bytes": 132130,
+   "min_m": 59.5,
+   "max_m": 228.5,
+   "nodata": 0,
+   "spacing_m": 25,
+   "tile_m": 6400,
+   "ring": 25
+  },
+  {
+   "key": "s25_268800_4134400",
+   "file": "tiles/s25_268800_4134400.ght",
+   "sha256": "960407b2b55d430d3ba94e4a054f7acd71600b11c62eeb9328a384bd0cd71739",
+   "e0": 268800,
+   "n0": 4134400,
+   "bytes": 132130,
+   "min_m": 55,
+   "max_m": 113.75,
+   "nodata": 0,
+   "spacing_m": 25,
+   "tile_m": 6400,
+   "ring": 25
+  },
+  {
+   "key": "s25_268800_4140800",
+   "file": "tiles/s25_268800_4140800.ght",
+   "sha256": "e44d8794561419e7ff620d355e16053880021ff1dca614f679ce80a76790bc05",
+   "e0": 268800,
+   "n0": 4140800,
+   "bytes": 132130,
+   "min_m": 59,
+   "max_m": 154.75,
+   "nodata": 0,
+   "spacing_m": 25,
+   "tile_m": 6400,
+   "ring": 25
+  }
+ ]
+}
